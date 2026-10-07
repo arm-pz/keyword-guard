@@ -1,4 +1,4 @@
-# seo-content-clusters
+# keyword-guard
 
 A Qoder Skill for planning SEO topic clusters and eliminating **keyword cannibalization**, so
 exactly one page wins each query.
@@ -23,15 +23,15 @@ hygiene.
 Place the skill folder in your user skills directory:
 
 ```bash
-cp -r SKILL.md references/ ~/.qoder/skills/seo-content-clusters/
+cp -r SKILL.md references/ ~/.qoder/skills/keyword-guard/
 ```
 
-Then run `/skills reload` (or restart the session) and invoke with `/seo-content-clusters`.
+Then run `/skills reload` (or restart the session) and invoke with `/keyword-guard`.
 
 ## Layout
 
 ```
-seo-content-clusters/
+keyword-guard/
 ├── SKILL.md
 └── references/
     ├── cannibalization-audit.md

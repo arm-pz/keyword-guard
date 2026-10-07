@@ -1,5 +1,5 @@
 ---
-name: seo-content-clusters
+name: keyword-guard
 description: Plan SEO topic clusters and eliminate keyword cannibalization so exactly one page wins each query. Use when mapping pillar and satellite pages, deciding which page should rank for a keyword, resolving internal competition between pages, writing title/H1/meta to avoid primary-keyword overlap, assigning cluster ownership from Search Console or from a sitemap when GSC access is missing, de-conflicting mixed-language pages with hreflang, or building keyword-research, on-page, and link-authority plans for organic growth. Complements seo-audit (technical diagnosis) and programmatic-seo (automated page scale).
 ---
 
