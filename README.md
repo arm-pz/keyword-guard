@@ -20,7 +20,11 @@ hygiene.
 
 ## Install
 
-Place the skill folder in your user skills directory:
+```
+npx skills add arm-pz/keyword-guard --skill keyword-guard
+```
+
+Or place the skill folder in your user skills directory:
 
 ```bash
 cp -r SKILL.md references/ ~/.qoder/skills/keyword-guard/
