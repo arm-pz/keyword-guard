@@ -1,15 +1,15 @@
 ---
 name: keyword-guard
-description: Plan SEO topic clusters and eliminate keyword cannibalization so exactly one page wins each query. Use when mapping pillar and satellite pages, deciding which page should rank for a keyword, resolving internal competition between pages, writing title/H1/meta to avoid primary-keyword overlap, assigning cluster ownership from Search Console or from a sitemap when GSC access is missing, de-conflicting mixed-language pages with hreflang, or building keyword-research, on-page, and link-authority plans for organic growth. Complements seo-audit (technical diagnosis) and programmatic-seo (automated page scale).
+description: Plan SEO topic clusters and eliminate keyword cannibalization so exactly one page wins each query. Use when mapping pillar and satellite pages, deciding which page should rank for a keyword, resolving internal competition between pages, writing title/H1/meta to avoid primary-keyword overlap, assigning cluster ownership from Search Console or from a sitemap when GSC access is missing, de-conflicting mixed-language pages with hreflang, or building keyword-research, on-page, and link-authority plans for organic growth. Not for crawl and index health (use seo-crawl), rewriting the copy once ownership is settled (use keyword-resolver), or mass page generation (use programmatic-seo).
 ---
 
-# SEO Content Clusters
+# Keyword guard
 
 ## Overview
 
 Design topical clusters and assign each target keyword to exactly one owner page, so pages
 cooperate instead of competing. The spine of this skill is cannibalization governance: a clean
-ownership map before any content change. General technical diagnosis lives in `seo-audit`; large
+ownership map before any content change. Measured crawl and index evidence comes from `seo-crawl` (with the third-party `seo-audit` for deeper diagnosis); large
 template-page generation lives in `programmatic-seo` — reach for those instead when the task is
 purely crawl/index health or mass page generation.
 
@@ -23,7 +23,7 @@ competition; assign an owner and de-conflict the other.
 ## Workflow
 
 1. **Discovery** — baseline organic traffic, current positions, top-5 organic competitors. (Technical
-   crawl/index/perf issues -> `seo-audit`.)
+   crawl/index issues -> `seo-crawl`; speed -> `pre-ship-performance-audit`.)
 2. **Keyword strategy + cluster architecture** — group the keyword universe by topic and search
    intent; design pillar + satellites with explicit internal-link paths. Use the keyword-research
    framework in `references/cannibalization-audit.md`.
