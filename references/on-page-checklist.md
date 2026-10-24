@@ -34,7 +34,7 @@ this page as owner (see `cannibalization-audit.md`) before applying it here.
 - [ ] FAQ schema on Q&A sections for rich-result eligibility
 ```
 
-## Technical context (hand off to seo-audit for a full crawl)
+## Technical context (hand off to seo-crawl for a full crawl)
 
 Quick checks that gate on-page work:
 
@@ -47,5 +47,5 @@ Quick checks that gate on-page work:
 - Core Web Vitals (field data): LCP < 2.5s, INP < 200ms, CLS < 0.1 (mobile + desktop)
 ```
 
-If these fail at scale, run `seo-audit` before continuing; on-page polish on an un-crawlable page
+If these fail at scale, run `seo-crawl` before continuing; on-page polish on an un-crawlable page
 does not move rankings.
